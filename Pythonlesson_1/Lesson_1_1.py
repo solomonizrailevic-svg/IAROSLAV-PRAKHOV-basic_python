@@ -1,7 +1,16 @@
-a = 7
-b = 8
-a = 6
-b = 5
-print(a + b)
+str_1 = ("Iaroslav")
+name = str_1
+age = 24
+height = 1.89
+print (name)
+print(age)
+print(height)
 
-print("hello, world")
+
+x = 10
+x = 25.5
+str_2 = "python"
+x = str_2
+print(x)
+print(type(x))
+print(type(str_2))
