@@ -1,8 +1,8 @@
 s = "Программирование"
-# print(s[0])
-# print(s[15])
-# print(s[3])
-# print(s[14])
+print(s[0])
+print(s[15])
+print(s[2])
+print(s[13])
 #
 # # print(s[100])
 # print(len(s))
@@ -16,19 +16,19 @@ s = "Программирование"
 # i = (s[::-1])
 # print(i)
 #
-# j = (s[1::2])
-# print(j)
-# k = (s[:1:-1])
-# print(k)
+j = (s[::3])
+print(j)
+k = (s[::-2])
+print(k)
 #
 # s[0] = "п"
 # print(s[0])
-# # потому что тип переменной не строка
+# # потому строки в пайтоне неизменяемые
 
-s2 = "П" + s[1:]
-print(s2)
-
-word = "abcdefgh"
-print(word[2:5])
-print(word[::-1])
-print(word[1:7])
+# s2 = "П" + s[1:]
+# print(s2)
+#
+# word = "abcdefgh"
+# print(word[2:5])
+# print(word[::-1])
+# print(word[1:7])
