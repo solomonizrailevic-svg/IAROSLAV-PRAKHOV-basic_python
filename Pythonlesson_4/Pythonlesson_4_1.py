@@ -2,16 +2,16 @@
 q = "Yaroslav Prakhov"
 print(type("Yaroslav"))
 
-# print(q.upper())
-# print(q.lower())
-# print(q)
+print(q.upper())
+print(q.lower())
+print(q)
 # строка.метод()
 
 # print(q.count("v"))
 # print(q.count("a", 0, 20))
 
-# print(q.find("a", 7))
-# print(q.rfind("a"))
+print(q.find("a", 7))
+print(q.rfind("a"))
 # print(q.rfind("c"))
 # print(q.find("f"))
 # print(q.index("Y"))
@@ -53,11 +53,11 @@ print(type("Yaroslav"))
 # print(surname)
 # print(fathername)
 
-# nums = "1,  2,33, 43,    ,23"
-# print(nums.replace(" ","").split(","))
+nums = "1,  2,33, 43,    ,23"
+print(nums.replace(" ","").split(","))
 
-# words = ["str", "float","bool"]
-# print(", ".join(words))
+words = ["str", "float","bool"]
+print(", ".join(words))
 
 j = "   ffff fff   "
 print(j.strip())
