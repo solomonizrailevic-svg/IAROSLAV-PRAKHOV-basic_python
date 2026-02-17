@@ -1,20 +1,20 @@
-список = [7, 3, 10, 1, 5]
+lst = [7, 3, 10, 1, 5]
 i = 0
-while i < len(список):
-    if список[i] % 2 == 0:
-        print(список[i])
+while i < len(lst):
+    if lst[i] % 2 == 0:
+        print(lst[i])
         break
     i += 1
 else:
     print("Четное число не найдено")
 
-число = 1
+numb = 1
 sum1 = 0
-while число != 0:
-    число = int(input("Введите ноль: "))
-    if число > 0:
-        sum1 += число
-    if число < 0:
+while numb != 0:
+    numb = int(input("Введите ноль: "))
+    if numb > 0:
+        sum1 += numb
+    if numb < 0:
         continue
 print(sum1)
 
@@ -42,13 +42,13 @@ else:
         print(n, "— простое число")
 
 
-ввод = int(input("Введите число: "))
-p = ввод
-while ввод > 0:
-    if ввод == 0:
+access = int(input("Введите число: "))
+p = access
+while access > 0:
+    if access == 0:
         break
-    if ввод > p:
-        p = ввод
-    ввод = int(input("Введите число: "))
+    if access > p:
+        p = access
+    access = int(input("Введите число: "))
 print(p)
 

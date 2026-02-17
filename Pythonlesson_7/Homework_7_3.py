@@ -1,7 +1,7 @@
 s=("Çok güzel oldu")
-строка = list(s)
-строка.reverse()
-for letter in строка:
+str = list(s)
+str.reverse()
+for letter in str:
     print(letter)
 
 g = [2, 3, 4, 5, 6, 7, 8, 9]
