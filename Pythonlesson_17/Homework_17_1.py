@@ -86,5 +86,5 @@ print(multiply(5, 4))
 print(multiply.__annotations__)
 
 def area(length: float, width: float) -> float:
-    return length * width
+    return length * width    
 print(area.__annotations__)
